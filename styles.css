@@ -9,7 +9,7 @@
 .menubar{
     display: flex;
     justify-content: space-between;
-    margin:50px 240px 0 228px ;
+    margin:50px 240px 0px 228px ;
 }
 .manu-title{
     font-size: 45px;
@@ -25,5 +25,29 @@
     padding-right:50px ;
 }
 .header-details{
-    margin: 0 auto;
+    text-align: center;
+}
+.brand-title{
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+.brand-details{
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+}
+.primary-button{
+    width: 180px;
+    height: 64px;
+    background-color: rgb(255, 149, 0);
+    color: white;
+    font-size: 20px;
+    font-weight:600 ;
+    margin: 32px 0 50px 0;
+    border-style: none;
+    border-radius: 7px;
+}
+.banner-img{
+    padding: 50px 240px 0px 240px;
 }
