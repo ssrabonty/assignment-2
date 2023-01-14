@@ -1,53 +1,244 @@
 /* header start */
-.header{
+.header {
     width: 1920px;
     height: 1322px;
+    margin: 0 auto;
     background-color: rgba(255, 235, 205, 0.509);
-    margin:0 auto;
     font-family: sans-serif;
 }
-.menubar{
+
+.menubar {
     display: flex;
     justify-content: space-between;
-    margin:50px 240px 0px 228px ;
+    margin: 50px 240px 0px 228px;
 }
-.manu-title{
+
+.manu-title {
     font-size: 45px;
     font-weight: 700;
 }
-.menu-options{
-    display:flex;
+
+.menu-options {
+    display: flex;
     align-items: center;
     font-size: 18px;
     font-weight: 500;
 }
-.option{
-    padding-right:50px ;
+
+.option {
+    padding-right: 50px;
 }
-.header-details{
+
+.header-details {
     text-align: center;
 }
-.brand-title{
+
+.brand-title {
     font-size: 64px;
     font-weight: 700;
     padding-bottom: 32px;
 }
-.brand-details{
+
+.brand-details {
     font-size: 18px;
     font-weight: 400;
     color: #727272;
 }
-.primary-button{
+
+.primary-button {
     width: 180px;
     height: 64px;
     background-color: rgb(255, 149, 0);
     color: white;
     font-size: 20px;
-    font-weight:600 ;
+    font-weight: 600;
     margin: 32px 0 50px 0;
     border-style: none;
     border-radius: 7px;
 }
-.banner-img{
+
+.banner-img {
     padding: 50px 240px 0px 240px;
 }
+
+/* main part start  */
+/* section-1  */
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.feature {
+    margin-top: 85px;
+    display: flex;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.features-details {
+    margin: 150px 0 0 73px;
+}
+
+.feature-title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.quick-list {
+    color: #727272;
+}
+
+.of-our {
+    color: #131313;
+}
+
+.features {
+    color: #FF900E;
+}
+
+.feature-article {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* section 2  */
+.feature-of-love {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.feature-of-love-title {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-of-love-description {
+    color: #727272;
+    margin-bottom: ;
+}
+
+.love-enjoy {
+    background-color: white;
+    /* height: 171px; */
+    width: 586px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 15px #000000;
+    padding: 30px 0 30px 30px;
+    margin-top: 50px;
+}
+
+.love-enjoy p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.love-enjoy article {
+    color: #727272;
+}
+
+.btn-experience {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    color: white;
+    margin-top: -180px;
+    margin-left: -90px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.btn-experience span {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* some facts  */
+.some-facts {
+    padding-top: 130px;
+}
+
+.some-facts-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.some-facts-p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.some-facts-ratings {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 95px;
+}
+
+.some-info {
+    border: 2px solid #FF900E;
+    padding: 45px;
+    text-align: center;
+}
+
+.some-info:hover {
+    border: 4px;
+}
+
+.some-info .number {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.some-info .some-details {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* our sponser */
+.sponspors {
+    padding-top: 180px;
+}
+
+.sponser {
+    text-align: center;
+}
+
+.sponser h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponser p{
+    color: #727272;
+} 
+.sponser-pic {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+/* footer part  */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 145px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* for mobile  */
