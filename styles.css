@@ -1,0 +1,29 @@
+/* header start */
+.header{
+    width: 1920px;
+    height: 1322px;
+    background-color: rgba(255, 235, 205, 0.509);
+    margin:0 auto;
+    font-family: sans-serif;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 240px 0 228px ;
+}
+.manu-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.menu-options{
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.option{
+    padding-right:50px ;
+}
+.header-details{
+    margin: 0 auto;
+}
